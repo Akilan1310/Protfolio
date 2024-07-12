@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini page</title>
+    <link rel="stylesheet" href="Deco.css">
+    <link rel="stylesheet" href="sidenav.css">
+
+    <style>
+                body {background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+          background-repeat: no-repeat;background-attachment: fixed; background-size: cover;}
+        body {font-family: "Lato", sans-serif;}
+        .main{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+        }
+        header {
+           
+           color: red;
+           padding: 10px;
+           text-align: center;
+       }
+       sub{ text-align: center;
+           padding: -50px;
+       
+       }
+    .container{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            flex-wrap: wrap;
+            }
+            div.gallery {
+  margin: 10px;
+  border: 0px solid #ccc;
+  float: left;
+  width: 300px;
+  justify-content: center;
+}
+
+div.gallery:hover {
+  border: 0px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-style: oblique;
+}
+h2{
+    font-style: italic;
+}
+            
+            
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+    <header>  
+        <h1><center><em>Solidworks</em></center></h1>
+    </header>
+    <br>
+   
+    <div>
+        <h2>
+            <center>These are the 3D model i done on solidworks</center><br>
+        </h2>
+    </div> 
+    
+    <nav>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">Projects</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">3D models</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Experiments</button>
+          </div>
+          
+          <div id="London" class="tabcontent">
+            <h2><center>Hybrid dairy packing machine</center><br></h2>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/akil/Screenshot (48).png">
+            <img src="solidworks materials/projects/akil/Screenshot (48).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">Isometric view</div>
+            </div>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/akil/Screenshot (84).png">
+            <img src="solidworks materials/projects/akil/Screenshot (84).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">Top view</div>
+            </div>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/akil/Screenshot (47).png">
+            <img src="solidworks materials/projects/akil/Screenshot (47).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">Front view</div>
+            </div>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/akil/Screenshot (49).png">
+            <img src="solidworks materials/projects/akil/Screenshot (49).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">side view</div>
+            </div>
+            <br>
+          </div>
+          
+          <div id="Paris" class="tabcontent">
+            <h2><center>Carrot harvestor machine</center><br></h2>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/gokul/Screenshot (76).png">
+            <img src="solidworks materials/projects/gokul/Screenshot (76).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">Isometric view</div>
+            </div>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/gokul/Screenshot (77).png">
+            <img src="solidworks materials/projects/gokul/Screenshot (77).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">Top view</div>
+            </div>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/akil/Screenshot (47).png">
+            <img src="solidworks materials/projects/akil/Screenshot (47).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">Front view</div>
+            </div>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/gokul/Screenshot (78).png">
+            <img src="solidworks materials/projects/gokul/Screenshot (78).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">side view</div>
+            </div>
+            <br>
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <h2><center>Oil segregator machine</center><br></h2>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/kishore/Screenshot (79).png">
+            <img src="solidworks materials/projects/kishore/Screenshot (79).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">Isometric view</div>
+            </div>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/kishore/Screenshot (80).png">
+            <img src="solidworks materials/projects/kishore/Screenshot (80).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">Top view</div>
+            </div>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/akil/Screenshot (47).png">
+            <img src="solidworks materials/projects/akil/Screenshot (47).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">Front view</div>
+            </div>
+            <div class="gallery">
+            <a target="_blank" href="solidworks materials/projects/kishore/Screenshot (81).png">
+            <img src="solidworks materials/projects/kishore/Screenshot (81).png" alt="Cinque Terre" width="1000" height="800">
+            </a>
+            <div class="desc">side view</div>
+            </div>
+            <br>
+          </div>
+          
+          <div class="clearfix"></div>
+          <script>
+            function openCity(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            </script>
+    </nav> 
+    <br>
+    </div> 
+</body>
+</html>
